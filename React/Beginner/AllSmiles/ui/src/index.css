@@ -1,0 +1,26 @@
+@import '@fontsource/buda';
+ 
+
+body {
+ background-color: rgb(214,245,245);
+}
+
+.imgSize {
+  width:12em;
+  left:0px;
+  position: relative;
+}
+
+.divInline{
+  text-align: center;
+}
+
+.buda{
+  font-family: buda bold;
+  font-size: 100px;
+  text-shadow: 0cap;
+}
+
+.navDark{
+  background-color: black;
+}
