@@ -6,7 +6,7 @@ body {
 }
 
 .imgSize {
-  width:12em;
+  width:10em;
   left:0px;
   position: relative;
 }
@@ -17,7 +17,7 @@ body {
 
 .buda{
   font-family: buda bold;
-  font-size: 100px;
+  font-size: 70px;
   text-shadow: 0cap;
 }
 
