@@ -4,7 +4,8 @@ import './App.css';
 import 'bootstrap/dist/js/bootstrap';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import PatientDetails from './Components/PatientDetails';
-
+import PatientSearch from './Components/PatientSearch';
+import PatientPayment from './Components/PatientPayment';
 
 function App() {
   return (
@@ -48,14 +49,20 @@ function App() {
               </div>
           </div>
           <div id="patientSearch" className="tab-pane container fade">
-            <h3 className="mt-3">
-                Patient Search
-            </h3>
+                <div className="container mt-3">
+                    <h3 className="mt-3">
+                        Patient Search
+                    </h3>
+                    <PatientSearch />
+                </div>
           </div>
           <div id="patientPayment" className="tab-pane container fade">
+            <div className="container mt-3">
             <h3 className="mt-3">
               Patient Payment
             </h3>
+            <PatientPayment />
+            </div>
           </div>
           <div id="expenses" className="tab-pane container fade">
             <h3 className="mt-3">

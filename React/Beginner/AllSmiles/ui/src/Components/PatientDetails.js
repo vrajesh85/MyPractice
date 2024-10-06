@@ -26,7 +26,7 @@ const PatientDetails = () => {
                     <input type="file" id="pfile" className="form-control w-50" aria-describedby="customfilehelp"></input>
                     <div id="customfilehelp" className="form-text">Example: .pdf, .docx, .jpg</div>
                 </div>
-                <button className="mt-1 btn btn-danger col-md-1">Save</button>
+                <button type="submit" className="mt-1 btn btn-danger col-md-1">Save</button>
             </form>
        </>
     );
