@@ -8,7 +8,7 @@ const PatientPayment = () => {
                     <label for="pname">Name :</label>
                 </div>
                 <div className="form-floating mb-3 mt-3">
-                    <input type="text" className="form-control w-25" id="treatment" placeholder="" name="treatment"></input>
+                    <textarea className="form-control w-75" id="treatment" placeholder="" name="treatment"></textarea>
                     <label for="treatment">Treatment :</label>
                 </div>
                 <div className="form-floating mb-3 mt-3 col-md-5">
